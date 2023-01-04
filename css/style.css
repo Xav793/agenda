@@ -1,0 +1,142 @@
+.bodyAgenda{
+  background-image: linear-gradient(90deg, rgb(217, 198, 252),rgb(82, 114, 237));
+}
+
+.mainAgenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hAgenda{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ulAgenda{
+    list-style-type: none;
+}
+
+#myCalendar{
+  margin: auto;
+}
+
+.cardAgenda{
+   display: none;
+   
+  background: #F4F6FB;
+  border: 1px solid rgb(197, 190, 190);
+  border-radius: 2%;
+  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+
+.agenda{
+    background: #F4F6FB;
+    border: 1px solid rgb(197, 190, 190);
+    border-radius: 2%;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 45px;
+    display: none;
+}
+
+.formAgenda{
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 45px;
+    margin-right: 20%;
+    
+}
+
+
+
+.labelAgenda {
+    color: #B2BAC8;
+    font-size: 1.1em;
+    display: block;
+    padding-bottom: 4px;
+    margin: 5px;
+    font-weight: 800;
+  }
+
+.formAgenda button {
+    margin-top: 15px;
+}
+
+.heading {
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #538fcd;
+  }
+
+  .field {
+    padding-bottom: 10px;
+  }
+
+
+.formAgenda input{
+    width: 100%;
+    padding: 0.5em;
+    background-color: #538fcd;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    border-radius: 25em;
+    border: 1px solid #dadaf7
+}
+
+.formAgenda textarea{
+  width: 100%;
+    padding: 0.5em;
+    background-color: #538fcd;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.formAgenda input:focus-visible {
+    outline: 1px solid #aeaed6;
+  }
+  
+.formAgenda input::placeholder {
+    color: #bcbcdf;
+  }
+
+.formAgenda textarea:focus-visible {
+    outline: 1px solid #aeaed6;
+  }
+  
+.formAgenda textarea::placeholder {
+    color: #bcbcdf;
+  }
+  
+  
+
+
+
+.buttonFormAgenda{
+    background-color: #538fcd;
+    color: #fff;
+    padding: 15px;
+    border-radius: 25em;
+    font-size: 1.1em;
+    border:solid #538fcd 2px;
+    
+}
+
+.buttonFormAgenda:hover{
+    background-color: #fff;
+    color: #538fcd;
+    border: #538fcd solid 2px;
+}
+
+.strongAgenda{
+  font-size: 1.1em;
+  font-weight: bolder;
+}
